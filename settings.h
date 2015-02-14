@@ -7,7 +7,7 @@
 #ifndef __SETTINGS_H
 #define __SETTINGS_H
 
-#define IDENT_STR "APULLIN-OCTOROACH;OL-VIBE-SIN;"
+#define IDENT_STR "APULLIN-OCTOROACH;MASTER;"
 
 //#warning "REQUIRED: Review and set radio channel & network parameters in firmware/source/settings.h  , then comment out this line."
 /////// Radio settings ///////
