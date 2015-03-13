@@ -9,12 +9,13 @@
 
 #define IDENT_STR "BIOMIMETICS-ROACH;AMS-ENC;"
 
+#define SETTINGS_USE_FLASH_CONFIG
+
 /////// Radio settings ///////
-/////// Radio settings ///////
+#define SETTINGS_USE_FLASH_RADIO_CONFIG
 #define RADIO_CHANNEL       0x19
 #define RADIO_PAN_ID        0x2050
 #define RADIO_SRC_ADDR      0x2052
-
 
 #define RADIO_TXPQ_MAX_SIZE   10
 #define RADIO_RXPQ_MAX_SIZE   10
