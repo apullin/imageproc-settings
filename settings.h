@@ -10,7 +10,6 @@
 #define IDENT_STR "BIOMIMETICS-ROACH;AMS-ENC;"
 
 /////// Radio settings ///////
-/////// Radio settings ///////
 #define RADIO_CHANNEL       0x19
 #define RADIO_PAN_ID        0x2050
 #define RADIO_SRC_ADDR      0x2052
@@ -18,6 +17,8 @@
 
 #define RADIO_TXPQ_MAX_SIZE   10
 #define RADIO_RXPQ_MAX_SIZE   10
+
+#define SYS_SERVICE_T1
 
 //Telemetry type setup
 #define TELEM_TYPE vrTelemStruct_t
