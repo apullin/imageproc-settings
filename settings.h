@@ -19,11 +19,14 @@
 #define RADIO_RXPQ_MAX_SIZE   10
 
 #define SYS_SERVICE_T1
+#define SYS_SERVICE_T4
+#define SYS_SERVICE_T5
+#define SYS_SERVICE_T6
 
 //Telemetry type setup
-#define TELEM_TYPE vrTelemStruct_t
-#define TELEM_INCLUDE "vr_telem.h"
-#define TELEMPACKFUNC(x) vrTelemGetData(x)
+#define TELEM_TYPE orTelemStruct_t
+#define TELEM_INCLUDE "or_telem.h"
+#define TELEMPACKFUNC(x) orTelemGetData(x)
 
 // Encoders Setup
 //Left legs
@@ -40,5 +43,9 @@
 #define RIGHT_LEGS_FLIP         1       //"forward" regular for right
 #define RIGHT_LEGS_PWM_FLIP     0
 #define RIGHT_LEGS_TIH_CHAN     1       //tiH module index is 1-4
+
+//Temporary, to be removed when leg_ctrl is changed to use above defines
+#define OCTOROACH_LEG1_MOTOR_CHANNEL 1
+#define OCTOROACH_LEG2_MOTOR_CHANNEL 2
 
 #endif //_SETTINGS_H
