@@ -45,8 +45,11 @@
 #define RIGHT_LEGS_TIH_CHAN     1       //tiH module index is 1-4
 
 //Temporary, to be removed when leg_ctrl is changed to use above defines
-#define OCTOROACH_LEG1_MOTOR_CHANNEL 1
-#define OCTOROACH_LEG2_MOTOR_CHANNEL 2
+#define OCTOROACH_LEG1_MOTOR_CHANNEL    1
+#define OCTOROACH_LEG2_MOTOR_CHANNEL    2
+
+#define OCTOROACH_LEFT_LEGS_PID_NUM     0
+#define OCTOROACH_RIGHT_LEGS_PID_NUM    1
 
 #define MOVE_QUEUE_SIZE 16
 
