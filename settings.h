@@ -7,7 +7,7 @@
 #ifndef __SETTINGS_H
 #define __SETTINGS_H
 
-#define IDENT_STR "BIOMIMETICS-ROACH;AMS-ENC;"
+#define IDENT_STR "APULLIN-ROACH;AMS-VIBE;"
 
 /////// Radio settings ///////
 /////// Radio settings ///////
