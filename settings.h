@@ -20,6 +20,8 @@
 #define RADIO_RX_QUEUE_MAX_SIZE 8
 #define RADIO_TX_QUEUE_MAX_SIZE	8
 
+#define CMD_QUEUE_MAX_SIZE      8
+
 //Telemetry type setup
 #define TELEM_TYPE orTelemStruct_t
 #define TELEM_INCLUDE "or_telem.h"
