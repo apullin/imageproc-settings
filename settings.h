@@ -23,6 +23,7 @@
 #define TELEM_TYPE vrTelemStruct_t
 #define TELEM_INCLUDE "vr_telem.h"
 #define TELEMPACKFUNC(x) vrTelemGetData(x)
+#define TELEM_SKIP_NUM          2       //500Hz telemetry
 
 // Encoders Setup
 //Left legs
